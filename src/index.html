@@ -13,11 +13,19 @@
 
   <link rel="manifest" href="/manifest.json">
   <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
-
+  <style>
+    .submit button{
+      background: blue;
+      font-size: 24px;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-
-  <my-name first="Stencil" last="JS"></my-name>
-
+<form action="">
+  <input type="text">
+  <!-- <my-name first="Stencil" last="JS"></my-name> -->
+  <loading-button class="submit" spinner-type="ios" spinner-color="#fff">Hello</loading-button>
+</form>
 </body>
 </html>
