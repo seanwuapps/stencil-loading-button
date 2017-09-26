@@ -10,15 +10,7 @@ Stencil also enables a number of key capabilities on top of Web Components, in p
 
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
-
-```bash
-git clone git@github.com:ionic-team/stencil-starter.git my-app
-cd my-app
-git remote rm origin
-```
-
-and run:
+To run: 
 
 ```bash
 npm install
@@ -39,3 +31,17 @@ To build the app for production, run:
 npm run build
 ```
 
+## Usage
+
+This component uses [the loading spinner](https://github.com/seanwuapps/stencil-loading-spinner) component
+
+The ``spinner-*`` properties matches the properties in ``<loading-spinner>`` component.
+
+```html
+<loading-button 
+    class="submit" 
+    spinner-type="ios" 
+    spinner-color="#fff">
+    Click me
+</loading-button>
+```
